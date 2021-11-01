@@ -28,7 +28,6 @@ for sentence in text_sentences.sents:
         
             if nlp.vocab[token.lemma_].is_stop == False:
                 sentence_tokens.append(token.lemma_)
-                print(token.lemma_)
     whole_text.append(sentence_tokens)
          
     
